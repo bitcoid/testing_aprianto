@@ -1,0 +1,26 @@
+// Example: Import Open Sans with multiple weights
+@import url('<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">');
+ 
+// Set the default font-family
+$typography-font-family: "Manrope", sans-serif !default;
+ 
+
+.super-small.q-field--dense {
+    .q-field__control-container,
+    .q-field__native {
+      padding-top: 5px !important;
+    }
+  
+    .q-field__control {
+      height: 30px !important;
+      min-height: 30px !important;
+    }
+  
+    .q-field__marginal {
+      height: 30px !important;
+    }
+  
+    .q-field__label {
+      top: 6px !important;
+    }
+  }
