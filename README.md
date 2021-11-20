@@ -1,3 +1,5 @@
+INSTALL FE 
+
 ## Install the dependencies
 ```bash
 npm install
@@ -6,20 +8,27 @@ npm install
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
-```
+``` 
+###browser
+``` 
+http://localhost:8080/#/transaksi
+``` 
 
-### Lint the files
+
+INSTALL BE
+### Install the dependencies
 ```bash
-npm run lint
+composer update
 ```
-
-### Build the app for production
+### Migrate
 ```bash
-quasar build
+php artisan migrate
 ```
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+### run all seed
+```bash
+php artisan db:seed --class=DatabaseSeeder
+```
 
-##setting .env
-https://www.youtube.com/watch?v=SR_2vbTlF78
+
+
